@@ -1,7 +1,20 @@
+# HTML
 
 > Default Encoding - UTF-8
+> DOM Model
 
-## DOM Model
+[CSS styles used](#css-styles-used)
+[HTML Entities](#html-entities)
+[Tables](#tables)
+[Generic Elements](#generic-elements)
+[Semantic Elements](#semantic-elements)
+[CSS Order](#css-order)
+[Relational Selectors](#relational-selectors)
+[Pseudo - Class Selectors](#pseudo---class-selectors)
+[Pseudo - Element Selectors](#pseudo---element-selectors)
+[Selector Specificity](#selector-specificity)
+[Colors](#colors)
+[Gradients](#gradients)
 
 ### CSS styles used
 
@@ -10,7 +23,6 @@
 - tag - (div)
 - attributte - (a[])
 
-> Use HTML and CSS Validators
 ---
 
 ### HTML Entities
@@ -54,7 +66,7 @@
 
 ---
 
-### Generic points
+### CSS Order
 
 - Order of CSS Importance
 `Inline styles > Embedded > External`
@@ -152,4 +164,5 @@ seudo-elements > Attribute > Negation > Inheritance > Initial value`
 `object-fit : cover`
 `box-shadow: 10px`
 
-- Normalize CSS whenever possible
+> Normalize CSS whenever possible
+> Use HTML and CSS Validators
