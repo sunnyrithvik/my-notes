@@ -118,3 +118,72 @@ clearfix::after {
 Method 3: (avoid)
 
 - use overflow: hidden on the parent element
+
+### Flexbox
+
+- `flex-direction: row`
+- `flex-direction: column`
+- `flex-direction: row-reverse`
+- `flex-direction: column-reverse`
+
+```css
+display: flex,
+flex-direction: column
+```
+
+Axes
+
+- main axis(primary)
+- cross axis(secondary)
+
+#### Aligning items
+
+- justify-content (along the main axis)
+- align-items (along the cross axis)
+- align-content (along the cross axis)
+
+- `justify-content: flex-start`
+- `justify-content: flex-end`
+- `justify-content: center`
+- `justify-content: space-between`
+- `justify-content: space-around`
+- `justify-content: space-evenly`
+- `align-items: flex-start`
+- `align-items: flex-end`
+- `align-items: center`
+- `align-items: baseline`
+- `align-items: stretch`
+
+For multiple lines we use align-content
+
+- `align-content: center`
+- `align-content: flex-start` (default)
+- `align-content: flex-end`
+- `align-content: space-between`
+- `align-content: space-around`
+- `align-content: space-evenly`
+- `flex-wrap: nowrap` (default)
+- `flex-wrap: wrap`
+- `flex-wrap: wrap-reverse`
+
+For alignment of individual items(flex items) we use align-self
+
+- `align-self: center`
+- `align-self: flex-start`
+- `align-self: flex-end`
+- `align-self: stretch` (default)
+- `align-self: baseline`
+
+#### Sizing Items (on flex items)
+
+- `flex-basis` (the initial size of a flex item)
+- `flex-grow` (the amount of space a flex item can take up)
+- `flex-shrink` (the amount of space a flex item can shrink by)
+- `flex`
+
+##### Flex syntax
+
+- flex (flex-grow, flex-shrink, flex-basis)
+- flex (flex-grow, flex-shrink or flex-basis)
+- flex (flex-grow or flex-shrink)
+
