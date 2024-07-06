@@ -18,7 +18,7 @@
 
 > - By default, width and height property is applied to content box i.e. box-sizing: content-box
 > - To apply width and height to the border box, we need to use box-sizing: border-box
-> 
+>
 > - content in universal selectors in css does not apply to pseudo elements
 > - We have to specify in universal selectors for pseudo elements
 > - We can use *::before and *::after to add pseudo elements to all elements
@@ -243,3 +243,93 @@ footer";`
 ```css
 `@media screen and (min-width: 600px) and (max-width: 900px)`
 ```
+
+## Typography
+
+### Styling Fonts
+
+- 3 types of fonts
+
+    - Serif
+        - Georgia
+        - Times New Roman
+    - Sans-serif
+        - Arial
+        - Helvetica
+        - Roboto
+        - Futura
+        - Avenir
+    - Monospace
+        - Courier
+        - Consolas
+        - Ubuntu
+
+- Use Web safe fonts and font stack
+- `font-family` (font name)
+- `font-style` (normal, italic, oblique)
+- `font-weight` (normal, bold, bolder, lighter, 100, 200)
+- `font-size` (px, em, rem, %)
+- `line-height` (px, em, rem, %)
+- `font-variant` (small-caps)
+- `font-stretch` (normal, wider, narrower)
+- `font-feature-settings` (font features)
+- `font-kerning` (auto, normal, none)
+- `font-synthesis` (auto, none)
+- `font-size-adjust` (auto, none)
+
+### Embedding Web Fonts
+
+#### Font Formats
+
+- `ttf`
+- `otf`
+- `woff`
+- `woff2`
+- `eot`
+
+### Flash of Unstyled Text
+
+- `font-display: auto`
+- `font-display: swap`
+- `font-display: fallback`
+- `font-display: optional`
+- `font-display: block`
+
+### System Font Stack
+
+- Using system fonts for better performance
+- `font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;`
+- `font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans
+-serif;`
+
+### Sizing Fonts
+
+- Always use relative font size if possible
+- Use typescale.com website for font size
+
+### Vertical Spacing
+
+- margin
+- line-height
+
+> Line height is generally 1.5 times the font size
+> `line-height: 1.5` is 1.5 times of font size
+
+### Horizontal Spacing
+
+- `letter-spacing`
+- `word-spacing`
+- `width`
+
+> Ideal line length is 50-70 characters
+
+### Formatting Text
+
+- `test-align`
+- `text-transform`
+- `text-decoration`
+- `text-overflow`
+- `text-indent`
+- `white-space`
+- `column-*`
+- `direction`
