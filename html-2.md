@@ -187,3 +187,47 @@ For alignment of individual items(flex items) we use align-self
 - flex (flex-grow, flex-shrink or flex-basis)
 - flex (flex-grow or flex-shrink)
 
+### Grid
+
+- `display: grid`
+- `grid-template-rows: repeat(3, 100px);`
+- `grid-template-columns: repeat(2, 100px);`
+- `grid-template: repeat(3, 100px) / repeat(2, 100px)`
+- `grid-template: repeat(3, 100px) / 30% 70%`
+- `grid-template: 100px auto 100px / 100px 30fr 70fr`
+- `grid-template-areas: "header header" "main main sidebar" "footer footer
+footer";`
+
+#### Aligning Items
+
+- `justify-items` (along the horizontal axis)
+- `align-items` (along the vertical axis)
+
+> Note:
+>
+> - `justify-items` and `align-items` are the same as `justify-content` and `align-content` for flexbox, except that they apply to the grid container's children, not the grid container itself.
+> - content is used for entire grid
+> - items is used for individual items
+> - default value of `justify-items` and `align-items` is `stretch`
+
+#### Gap
+
+- `row-gap`
+- `column-gap`
+- `gap` (default value is 0px)
+- `gap (row-gap, column-gap)`
+
+#### Placing Items
+
+- `grid-row`
+- `grid-column`
+- `grid-area`
+
+> Examples:
+> `grid-column: 1 / 3`
+> `grid-column: 1 / -1`
+> `grid-column: 1 / span 2`
+> `grid-area: (start)(r/c)/ (end)(r/c)`
+> `grid-area: 1/1 / 1/3`
+> `grid-area: header or main or footer or sidebar`
+> For empty cell use .(dot) in grid-template-areas
