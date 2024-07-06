@@ -231,3 +231,15 @@ footer";`
 > `grid-area: 1/1 / 1/3`
 > `grid-area: header or main or footer or sidebar`
 > For empty cell use .(dot) in grid-template-areas
+
+### Hiding Elements
+
+- `display: none`
+- `visibility: visible`
+- `visibility: hidden` (occupies extra space)
+
+### Media Queries
+
+```css
+`@media screen and (min-width: 600px) and (max-width: 900px)`
+```
