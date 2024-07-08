@@ -333,3 +333,73 @@ footer";`
 - `white-space`
 - `column-*`
 - `direction`
+
+### Image Types and Formats
+
+- Types
+    - Vector
+    - Raster
+
+- Formats
+    - JPEG
+    - PNG
+    - WebP
+    - GIF
+    - SVG (vector)
+
+> JPEG does not support transpareny and animation
+
+### Content Images
+
+### Background Images
+
+- `background`
+- `background-image`
+- `background-repeat: no-repeat`
+- `background-position: center(x y)`
+- `background-size: cover(x y)`
+- `background-attachment: fixed`
+
+### CSS Sprites
+
+> Combining multiple images like logos to reduce HTTP requests traffic 
+
+### Data URI
+
+> Optimization technique to reduce http request i.e. converting image into data(binary)
+
+### Clipping Images
+
+- `clip-path`
+- `clip: rect(0 0 100px 100px)`
+
+### Filters
+
+- `filter`
+- Grayscale
+- Blur
+- Saturate
+- Contrast
+- Brightness
+- Sepia
+- Hue Rotate
+- Invert
+
+### Hi Res Screens and Resolution switching
+
+- `srcset`
+- `sizes`
+- `media`
+
+### Using Modern Image formats
+
+- `picture`
+- `source`
+- `srcset`
+- `type`
+
+### Art Direction
+
+### SVG and Font Icons
+
+
